@@ -1,9 +1,18 @@
 main:
-  - title: "Posts"
-    url: /posts/
-  - title: "Categories"
-    url: /categories/
-  - title: "Tags"
-    url: /tags/
+  - title: "Home"
+    url: "/"
   - title: "About"
-    url: /about/
+    url: "/about/"
+  - title: "Portfolio"
+    url: /portfolio/
+  - title: "Blog"
+    url: /blog/
+FindPostByNav:
+  - title: "Recent"
+    url: /blog/
+  - title: "Category"
+    url: /categories/
+  - title: "Tag"
+    url: /tags/
+  - title: "Year"
+    url: /years/
