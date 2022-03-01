@@ -21,12 +21,13 @@ description: >- # this means to ignore newlines until "baseurl:"
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
 github_username: ehonnef
-search: true
+search: false
 
 # Build settings
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes@4.24.0
-minimal_mistakes_skin: default
+minimal_mistakes_skin: "default"
+minimal_mistakes_skin2: "dark"
 # Outputting
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
@@ -102,6 +103,22 @@ defaults:
       layout: single
       author_profile: true
       share: true
+  # _smallportfolio
+  - scope:
+      path: ""
+      type: smallportfolio
+    values:
+      layout: single
+      author_profile: true
+      share: true
+  # _uniportfolio
+  - scope:
+      path: ""
+      type: uniportfolio
+    values:
+      layout: single
+      author_profile: true
+      share: true
 
 category_archive:
   type: liquid
@@ -111,5 +128,11 @@ tag_archive:
   path: /tags/
 collections:
   portfolio:
+    output: true
+    permalink: /:collection/:path/
+  smallportfolio:
+    output: true
+    permalink: /:collection/:path/
+  uniportfolio:
     output: true
     permalink: /:collection/:path/

@@ -16,3 +16,8 @@ FindPostByNav:
     url: /tags/
   - title: "Year"
     url: /years/
+OtherPortfolios:
+  - title: "Small scripts"
+    url: /smallportfolio/
+  - title: "College projects"
+    url: /uniportfolio/

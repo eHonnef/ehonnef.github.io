@@ -1,8 +1,8 @@
 ---
-title: "Portfolio"
-layout: portfolio
-permalink: /portfolio/
-collection: portfolio
+title: "Small scripts"
+layout: smallportfolio
+permalink: /smallportfolio/
+collection: smallportfolio
 entries_layout: list
 classes: wide
 author_profile: true

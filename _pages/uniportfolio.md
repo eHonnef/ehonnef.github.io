@@ -1,8 +1,8 @@
 ---
-title: "Portfolio"
-layout: portfolio
-permalink: /portfolio/
-collection: portfolio
+title: "College portfolio"
+layout: uniportfolio
+permalink: /uniportfolio/
+collection: uniportfolio
 entries_layout: list
 classes: wide
 author_profile: true
