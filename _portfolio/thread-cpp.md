@@ -1,7 +1,7 @@
 ---
 title: "thread-cpp"
 excerpt: "This is a simple wrapper for the std::thread class."
-category: "CMake"
+category: "C++"
 link: https://github.com/eHonnef/thread-cpp
 ---
 

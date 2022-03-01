@@ -1,7 +1,7 @@
 ---
 title: "information-extraction"
 excerpt: "Information extraction from wikipedia pages"
-category: "Jupyter Notebook"
+category: "Python"
 link: https://github.com/eHonnef/information-extraction
 ---
 
