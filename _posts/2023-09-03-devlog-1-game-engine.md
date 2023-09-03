@@ -1,6 +1,6 @@
 ---
 title: "Devlog #1: Creating a game engine from scratch, the begin"
-date: 2023-09-23T21:00:00+00:00
+date: 2023-09-03T01:00:00+00:00
 toc: true
 comments: true
 toc_label: "Table of contents"
