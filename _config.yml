@@ -70,6 +70,18 @@ author:
       icon: "fas fa-fw fa-link"
       url: "/portfolio/"
 
+repository: "eHonnef/ehonnef.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+
+comments:
+  provider: "giscus"
+  giscus:
+    repo_id              : "R_kgDOG6gFmA" # Shown during giscus setup at https://giscus.app
+    category_name        : "Posts comments" # Full text name of the category
+    category_id          : "DIC_kwDOG6gFmM4CZDrj" # Shown during giscus setup at https://giscus.app
+    discussion_term      : "title" # "pathname" (default), "url", "title", "og:title"
+    reactions_enabled    : "1" # '1' for enabled (default), '0' for disabled
+    theme                : "light" # "light" (default), "dark", "dark_dimmed", "transparent_dark", "preferred_color_scheme"
+
 footer:
   links:
     - label: "GitHub"
@@ -85,7 +97,7 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: false
+      comments: true
       share: true
       related: true
   # _pages

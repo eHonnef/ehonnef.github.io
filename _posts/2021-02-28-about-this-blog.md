@@ -1,10 +1,10 @@
 ---
 title: "About this blog"
 date: 2021-02-28T15:34:30-04:00
+comments: false
 categories:
-  - Blog
+  - Personal
 tags:
-  - blog
   - personal
 ---
 {: .text-justify}
