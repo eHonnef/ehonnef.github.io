@@ -5,10 +5,12 @@ toc: true
 comments: true
 toc_label: "Table of contents"
 categories:
+  - Blog
   - Technical
   - DevLog
   - GameEngine
 tags:
+  - blog
   - devlog
   - C/C++
   - game-engine

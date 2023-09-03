@@ -5,8 +5,10 @@ toc: true
 comments: true
 toc_label: "Table of contents"
 categories:
+  - Blog
   - Technical
 tags:
+  - blog
   - C/C++
   - editors
 ---
