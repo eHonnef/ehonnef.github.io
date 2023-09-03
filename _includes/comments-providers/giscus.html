@@ -16,8 +16,17 @@
     script.setAttribute('data-category-id', '{{ site.comments.giscus.category_id }}');
     script.setAttribute('data-mapping', '{{ site.comments.giscus.discussion_term | default: "pathname" }}');
     script.setAttribute('data-reactions-enabled', '{{ site.comments.giscus.reactions_enabled | default: 1 }}');
-    script.setAttribute('data-theme', '{{ site.comments.giscus.theme | default: "light" }}');
     script.setAttribute('crossorigin', 'anonymous');
+
+    let theme = sessionStorage.getItem('theme');
+    if(theme === "dark")
+    {
+      script.setAttribute('data-theme', 'dark');
+    }
+    else
+    {
+      script.setAttribute('data-theme', 'light');
+    }
 
     commentContainer.appendChild(script);
   })();
